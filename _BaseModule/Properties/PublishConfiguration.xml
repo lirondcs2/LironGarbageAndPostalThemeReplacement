@@ -1,29 +1,29 @@
 <Publish>
   <ModId Value="" />
-  <DisplayName Value="Write Everywhere Module Model Project" />
-  <ShortDescription Value="Module to use along CS2 version of the mod Write Everywhere" />
-  <LongDescription># Model project for Write Everywhre modules mods
+  <DisplayName Value="Garbage and Postal Theme Replacement" />
+  <ShortDescription Value="Write Everywhere module to replace the base garbage and postal brandings in CS2." />
+  <LongDescription>## Postal and Garbage Theme Replacement Pack
 
-This is a project to be used as starter point to any new module pack of Write Everywhere mod for Cities Skylines 2.
+This Write Everywhere module replaces all postal signs in-game to have the USPS logo.
 
-## Setting up
+It also adds the USPS logo onto the Postal Van and Mailbox from the North American Theme.
 
-- Rename this project and solution to setup the DLL name this module will have.
-	- TIP: To avoid conflicts, start the project name with a acronym representing your name, example: `XYZ_MyWEModule` being XYZ the acronym that represents you.
-- Add resources at each `Resources/` subfolder as instructed locally there
-- Change csproj file details (DisplayName, ShortDescription, ForumLink, other social media links tags)
-- Setup thumbnail into `Properties/Thumbnail.png`
-- Add screenshots at `Screenshots/` folder (jpg files, optional)
-- Publish the mod using "Publish..." option in context menu of the project
-- After having a modId in Paradox Mods, setup it into the ModId parameter at csproj file
+Finally, it also adds the WM logo onto the North American Themed Garbage Trucks.
 
-After that, just don't forget to change the Version parameter in the csproj file if you need to upload new versions of the module!</LongDescription>
+Requires Write Everywhere to work.
+
+I plan on adding more options for postal and garbage companies in the future, but if you'd like to use your own just create your own WE layout using your own images and then replace the corresponding layout through the WE toolbar menu, under my mod's  name, and then under the Subtemplates tab. Alternatively, you can also create your own png images and replace the atlases from the same menu.
+
+### Adding your own logo images:
+To use your own atlases, simply save three PNG images into two folders, two images in a folder for Postal Logos and one image in its own folder for your sanitation logo, into Colossal Order\Cities Skylines II\ModsData\Klyte45Mods\WriteEverywhere\imageAtlases
+
+Just make sure to name the main postal logo PostalLogo.png, then PostalText.png for its corresponding text, and for the garbage company logo, name it GarbageLogo.png. The sizes are 512x512 for postal logo, 512x157 for postal text, and 640x237 for garbage logo.</LongDescription>
   <Thumbnail Value="Properties/Thumbnail.png" />
   <ForumLink Value="" />
   <ModVersion Value="1.0.0.0" />
   <GameVersion Value="1.*" />
   <ChangeLog>#  v1.0.0r0
-\&lt;ADD CHANGES HERE\&gt;</ChangeLog>
+Initial Release</ChangeLog>
   <Tag Value="Code Mod" />
   <Dependency Id="92908" ModVersion="" DisplayName="Write Everywhere" />
 </Publish>

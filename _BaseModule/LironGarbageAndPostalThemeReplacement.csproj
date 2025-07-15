@@ -21,8 +21,8 @@
     <Version>1.0.0.0</Version>
     <GameVersion>1.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
-    <DisplayName>Write Everywhere Module Model Project</DisplayName>
-    <ShortDescription>Module to use along CS2 version of the mod Write Everywhere</ShortDescription>
+    <DisplayName>Garbage and Postal Theme Replacement</DisplayName>
+    <ShortDescription>Write Everywhere module to replace the base garbage and postal brandings in CS2.</ShortDescription>
     <ForumLink></ForumLink>
     <GitHubLink></GitHubLink>
     <YoutubeLink></YoutubeLink>
