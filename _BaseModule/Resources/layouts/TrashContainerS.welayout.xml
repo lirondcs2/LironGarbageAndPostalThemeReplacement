@@ -1,0 +1,56 @@
+<WELayout>
+  <self itemName="New item">
+    <transform alignment="Left" arrayAxisOrder="XYZ">
+      <offsetPosition x="0" y="0" z="0" />
+      <offsetRotation x="-0" y="0" z="0" />
+      <scale x="1" y="1" z="1" />
+      <mustDraw>1</mustDraw>
+      <instanceCount>-1</instanceCount>
+      <arrayInstances x="1" y="1" z="1" />
+      <arraySpacing x="0" y="0" z="0" />
+    </transform>
+    <matrixTransform />
+  </self>
+  <children>
+    <self itemName="LogoL">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="0.289000034" y="0.93" z="7.916242E-09" />
+        <offsetRotation x="-0" y="90" z="0" />
+        <scale x="0.4" y="0.4" z="1" />
+        <mustDraw>1</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <imageMesh atlas="LironGarbageAndPostalThemeReplacement:SmallBinLogo">
+        <image>BinLogo</image>
+      </imageMesh>
+      <decalStyle decalFlags="40" affectSmoothness="false" affectAO="false" affectEmission="false" drawOrder="0">
+        <color>FFFFFFFF</color>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+      </decalStyle>
+    </self>
+  </children>
+  <children>
+    <self itemName="LogoR">
+      <transform alignment="Left" arrayAxisOrder="XYZ">
+        <offsetPosition x="-0.291" y="0.93" z="4.703179E-08" />
+        <offsetRotation x="-0" y="270" z="0" />
+        <scale x="0.4" y="0.4" z="1" />
+        <mustDraw>1</mustDraw>
+        <instanceCount>-1</instanceCount>
+        <arrayInstances x="1" y="1" z="1" />
+        <arraySpacing x="0" y="0" z="0" />
+      </transform>
+      <imageMesh atlas="LironGarbageAndPostalThemeReplacement:SmallBinLogo">
+        <image>BinLogo</image>
+      </imageMesh>
+      <decalStyle decalFlags="40" affectSmoothness="false" affectAO="false" affectEmission="false" drawOrder="0">
+        <color>FFFFFFFF</color>
+        <metallic>0</metallic>
+        <smoothness>0</smoothness>
+      </decalStyle>
+    </self>
+  </children>
+</WELayout>

@@ -17,14 +17,14 @@
 
   <PropertyGroup>
     <IsBelzontCommonsMod>false</IsBelzontCommonsMod>
-    <ModId></ModId>
-    <Version>1.0.0.0</Version>
+    <ModId>115401</ModId>
+    <Version>1.0.0.1</Version>
     <GameVersion>1.*</GameVersion>
     <ThumbnailPath>Properties/Thumbnail.png</ThumbnailPath>
     <DisplayName>Garbage and Postal Theme Replacement</DisplayName>
     <ShortDescription>Write Everywhere module to replace the base garbage and postal brandings in CS2.</ShortDescription>
     <ForumLink></ForumLink>
-    <GitHubLink></GitHubLink>
+    <GitHubLink>https://github.com/lirondcs2/LironGarbageAndPostalThemeReplacement</GitHubLink>
     <YoutubeLink></YoutubeLink>
     <KofiLink></KofiLink>
     <BMACLink></BMACLink>
